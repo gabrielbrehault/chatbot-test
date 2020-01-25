@@ -43,8 +43,6 @@ raw = f.read()
 raw = raw.lower()
 sent_tokens = nltk.sent_tokenize(raw)
 word_tokens = nltk.word_tokenize(raw)
-# import pdb
-# pdb.set_trace() 
 lemmer = nltk.stem.WordNetLemmatizer()
 
 GREETING_INPUTS = ("hello", "hi", "greetings", "sup", "what's up","hey",)

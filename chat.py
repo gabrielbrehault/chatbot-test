@@ -49,7 +49,7 @@ GREETING_INPUTS = ("hello", "hi", "greetings", "sup", "what's up","hey",)
 GREETING_RESPONSES = ["hi", "hey", "*nods*", "hi there", "hello", "I am glad! You are talking to me"]
 
 flag=True
-print("ROBO: My name is Robo. I will answer your queries about Robins. If you want to exit, type Bye!")
+print("ROBO: My name is Robo. I will answer your queries about the different Robins. If you want to exit, type Bye!")
 while(flag==True):
     user_response = input()
     user_response=user_response.lower()

@@ -46,7 +46,7 @@ word_tokens = nltk.word_tokenize(raw)
 lemmer = nltk.stem.WordNetLemmatizer()
 
 GREETING_INPUTS = (
-    "hello",
+    "bonjour",
      "hi",
      "greetings",
      "sup",

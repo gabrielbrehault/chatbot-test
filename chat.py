@@ -45,7 +45,14 @@ sent_tokens = nltk.sent_tokenize(raw)
 word_tokens = nltk.word_tokenize(raw)
 lemmer = nltk.stem.WordNetLemmatizer()
 
-GREETING_INPUTS = ("hello", "hi", "greetings", "sup", "what's up","hey",)
+GREETING_INPUTS = (
+    "hello",
+     "hi",
+     "greetings",
+     "sup",
+     "what's up",
+    "hey",
+)
 GREETING_RESPONSES = ["hi", "hey", "*nods*", "hi there", "hello", "I am glad! You are talking to me"]
 
 flag=True
